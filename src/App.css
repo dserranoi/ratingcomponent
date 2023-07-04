@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,37 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;600;700&display=swap');
+
+
+*{
+  box-sizing:border-box 
+}
+
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+:root{
+  --darkblue:#262E38;
+  --verydarkblue:#131518;
+  --purewhite:#FFFFFF;
+  --mediumgray:#7C8798;
+  --lightgrey:#969FAD;
+  --darkgradient: #232A34, #181E27;
+  --orange:#FC7614;
+
+}
+
+body{
+  background: var(--verydarkblue);
+}
+#root{
+  min-height: 100vh;
 }
